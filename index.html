@@ -19,7 +19,7 @@
             box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
             text-align: center; /* Centra il contenuto testuale */
         }
-        h1 {
+        h1, h2 {
             color: #333;
         }
         p {
@@ -31,6 +31,17 @@
             display: block; /* Rende l'immagine un blocco */
             margin: 0 auto; /* Aggiunge automaticamente margini uguali a sinistra e a destra, centrando l'immagine */
         }
+        .wine-list {
+            list-style: none; /* Rimuove i bullet points dalla lista */
+            padding: 0;
+        }
+        .wine-item {
+            margin-bottom: 15px;
+        }
+        .wine-item img {
+            max-width: 100px; /* Ridimensiona le immagini dei vini */
+            height: auto;
+        }
     </style>
 </head>
 <body>
@@ -40,10 +51,22 @@
         <p>Scoprite la nostra selezione di vini e godetevi il gusto autentico delle nostre uve coltivate con cura.</p>
         <p>Vi aspettiamo per una degustazione indimenticabile!</p>
         <img src="https://raw.githubusercontent.com/NeoSephiroth/NeoSephiroth.github.io/main/logo" alt="Logo Azienda Vinicola Davide Covelli">
+        
+        <!-- Sezione Lista Vini -->
+        <h2>La Nostra Selezione di Vini</h2>
+        <ul class="wine-list">
+            <li class="wine-item">
+                <img src="percorso/alla/foto/del/vino1.jpg" alt="Nome Vino 1">
+                <p>Nome Vino 1</p>
+            </li>
+            <li class="wine-item">
+                <img src="percorso/alla/foto/del/vino2.jpg" alt="Nome Vino 2">
+                <p>Nome Vino 2</p>
+            </li>
+            <!-- Aggiungi altri vini qui -->
+        </ul>
     </div>
 </body>
 </html>
-
-
 
 
