@@ -3,76 +3,75 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Azienda Vinicola Davide Covelli</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            background-color: #800020; /* Rosso bordeaux */
-            margin: 0;
-            padding: 0;
-        }
-        .container {
-            max-width: 800px;
-            margin: 0 auto;
-            padding: 20px;
-            background-color: #fff;
-            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-            text-align: center; /* Centra il contenuto testuale */
-        }
-        h1, h2 {
-            color: #333;
-        }
-        p {
-            color: #666;
-        }
-        img {
-            max-width: 400px;
-            height: auto;
-            display: block; /* Rende l'immagine un blocco */
-            margin: 0 auto; /* Aggiunge automaticamente margini uguali a sinistra e a destra, centrando l'immagine */
-        }
-        .wine-list {
-            list-style: none; /* Rimuove i bullet points dalla lista */
-            padding: 0;
-        }
-        .wine-item {
-            margin-bottom: 15px;
-        }
-        .wine-item img {
-            max-width: 200px; /* Immagine del vino ingrandita */
-            height: auto;
-        }
-    </style>
+    <title>Pizzeria Barattucci</title>
+    <!-- Stili CSS (da personalizzare) -->
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <div class="container">
-        <h1>Azienda Vinicola Davide Covelli</h1>
-        <p>Benvenuti nel nostro mondo del vino! Siamo appassionati produttori di vini pregiati.</p>
-        <p>Scoprite la nostra selezione di vini e godetevi il gusto autentico delle nostre uve coltivate con cura.</p>
-        <p>Vi aspettiamo per una degustazione indimenticabile!</p>
-        <img src="https://raw.githubusercontent.com/NeoSephiroth/NeoSephiroth.github.io/main/logo" alt="Logo Azienda Vinicola Davide Covelli">
-        
-        <!-- Sezione Lista Vini -->
-        <h2>Dai monti d'Abruzzo al calice versato,
-Covelli è il vino che ha sempre incantato.
-Con Trebbiano puro, un sapore amato,
-In ogni sorso, un sogno realizzato.
-</h2>
-        <h2>La Nostra Selezione di Vini</h2>
-        <ul class="wine-list">
-            <li class="wine-item">
-                <img src="https://raw.githubusercontent.com/NeoSephiroth/NeoSephiroth.github.io/main/barolo.jpg" alt="Barolo">
-                <p>Barolo</p>
-            </li>
-            <li class="wine-item">
-                <img src="https://raw.githubusercontent.com/NeoSephiroth/NeoSephiroth.github.io/main/montepulciano.jpg" alt="Montepulciano">
-                <p>Montepulciano</p>
-            </li>
-            <li class="wine-item">
-                <img src="https://raw.githubusercontent.com/NeoSephiroth/NeoSephiroth.github.io/main/trebbiano.jpg" alt="Trebbiano">
-                <p>Trebbiano</p>
-            </li> 
+    <header>
+        <h1>Pizzeria Barattucci</h1>
+        <img src="logo.png" alt="Logo Pizzeria Barattucci">
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#menu">Menu</a></li>
+            <li><a href="#gallery">Galleria</a></li>
+            <li><a href="#reservations">Prenotazioni</a></li>
+            <li><a href="#reviews">Recensioni</a></li>
+            <li><a href="#contact">Contatti</a></li>
         </ul>
-    </div>
+    </nav>
+
+    <section id="home">
+        <!-- Immagine della pizzeria -->
+        <p>Benvenuti alla Pizzeria Barattucci! Da noi troverete le migliori pizze della città.</p>
+    </section>
+
+    <section id="menu">
+        <!-- Elenco delle pizze -->
+        <h2>Menu</h2>
+        <ul>
+            <li>Margherita - €8</li>
+            <li>Diavola - €9</li>
+            <!-- Aggiungi altre pizze -->
+        </ul>
+    </section>
+
+    <section id="gallery">
+        <!-- Galleria fotografica -->
+        <h2>Galleria</h2>
+        <img src="pizza1.jpg" alt="Pizza Margherita">
+        <img src="pizza2.jpg" alt="Pizza Diavola">
+        <!-- Aggiungi altre immagini -->
+    </section>
+
+    <section id="reservations">
+        <!-- Modulo di prenotazione -->
+        <h2>Prenotazioni</h2>
+        <form action="prenota.php" method="post">
+            <!-- Campi del modulo -->
+        </form>
+    </section>
+
+    <section id="reviews">
+        <!-- Recensioni dei clienti -->
+        <h2>Recensioni</h2>
+        <p>"La migliore pizza che abbia mai assaggiato!" - Cliente felice</p>
+        <!-- Aggiungi altre recensioni -->
+    </section>
+
+    <section id="contact">
+        <!-- Informazioni di contatto -->
+        <h2>Contatti</h2>
+        <p>Indirizzo: Via delle Pizze, 123</p>
+        <p>Telefono: 0123-456789</p>
+        <!-- Aggiungi altri dettagli -->
+    </section>
+
+    <footer>
+        <p>© 2024 Pizzeria Barattucci</p>
+    </footer>
 </body>
 </html>
